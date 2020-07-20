@@ -8,24 +8,38 @@
     <title>Tell U How I Feel|小可爱表白墙</title>
   </head>
   <body>
-    <header>
-      <img alt="header-img" src="img/header-img.png"></img>
-    </header>
-    <hr />
-    <div id="content-box">
-      <form class="input-things">
-        <textarea class="input-box name" placeholder="姓名"></textarea>
-        <br />
-        <textarea class="input-box content" placeholder="表白内容"></textarea>
-        <br />
-        <textarea class="input-box nickname" placeholder="昵称"></textarea>
-        <br />
-        <textarea class="input-box contact" placeholder="联系方式"></textarea>
-        <br />
-      </form>
+    <div class="container">
+      <header>
+        <img alt="header-img" src="img/header-img.png"></img>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h4>小可爱表白墙</h4>
+        </div>
+        <form action="javascript:void(0);" method="POST" class="submit"></form>
+          <div id="content-box">
+            <div class="form-group login-form-item">
+              <label for="email">邮箱</label>
+              <input id="email" type="email" class="form-control" name="email" tabindex="1" required="" autofocus="">
+              <div class="invalid-feedback">
+                请填写邮箱
+              </div>
+            </div>
+            <textarea class="input-box content" placeholder="表白内容"></textarea>
+            <br />
+            <textarea class="input-box nickname" placeholder="昵称"></textarea>
+            <br />
+            <textarea class="input-box contact" placeholder="联系方式"></textarea>
+            <br />
+            <div class="form-group">
+              <button type="submit" class="btn-submit" tabindex="4">
+                登录
+              </button>
+            </div>
+          </div>
+          
+       </form>
+      </div>
     </div>
-    <footer>
-      <div class="fixed submit" id="submit">确认提交</div>
-    </footer>
   </body>
 </html>
