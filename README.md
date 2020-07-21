@@ -2,7 +2,7 @@
 😘 表白墙 demo/Tell u how i feel
 
 ## 预览
-![tellu](https://pic.xnor.online/tellu.png)
+<img src="https://pic.xnor.online/tellu.png" alt="tellu" style="zoom: 25%;" />
 
 ## 介绍
 在 [林科大小可爱（暂命名）](http://lkdxka.com) 技术部里**前端学习**中的练习，由于个人原因暂时只能初步使用 `HTML5` 和 `CSS3` 制作，`JavaScript` 部分系套用。
