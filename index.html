@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="love.css" />
-    <script src="/heart.js"></script>
+    <link rel="stylesheet" type="text/css" href="/src/css/love.css" />
+    <script src="/src/js/heart.js"></script>
     <title>Tell U How I Feel|小可爱表白墙</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <img alt="header-img" src="img/header-img.png"></img>
+        <div class="header-img">
+          <img alt="header-img" src="src/img/header-img.png"></img>
+        </div>
       </header>
       <div class="card">
         <div class="card-header">
@@ -20,6 +22,12 @@
         </div>
         <form action="javascript:void(0);" method="POST" class="submit"></form>
           <div id="content-box">
+            <div class="form-group">
+              <label>
+                <b>上传图片（可选）</b>
+                <input id="file" type="file" name="file" accept="image/*" />
+              </label>
+            </div>
             <div class="form-group">
               <textarea class="form-control content" name="content" placeholder="表白内容"></textarea> 
             </div>
